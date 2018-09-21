@@ -126,9 +126,13 @@ header {
     background-color: rgb(179, 255, 255);
 }
 .userConn {
-    border: 1px solid transparent;
-    display: flex;  
-    width: 40%
+    display: flex;
+    border: 2px solid transparent;
+    width: 50%;
+    height: 30%;
+    margin-top: 6%;
+    
+
 }
 .deconnexion { 
     border: 2px solid black;
@@ -151,6 +155,7 @@ header {
     width: 65%;
     height: 30%;
     text-align: center;
+    
     border-radius: 50%;
 
 }
