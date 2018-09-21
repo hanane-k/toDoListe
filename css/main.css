@@ -98,11 +98,12 @@ textarea {
    ========================================================================== */
 /*::::::::::::::::::::start header:::::::::::::::::::::::*/
 body {
-    border: 1px solid grey;
+    border: 1px solid rgb(217, 217, 217);
     margin: 5% 10% 5% 10%;
 }
 header {
     border-bottom: 4px solid black;
+    background: rgb(128, 223, 255);
 }
 .headerUp {
     display: flex;
@@ -119,11 +120,10 @@ header {
 
 }
 .logo {
-    border: 1px solid black;
+    border: 1px solid transparent;
     width: 30%;
-    border-bottom-right-radius: 20%;
     margin-right: 60%;
-    background-color: rgb(179, 255, 255);
+    
 }
 .userConn {
     display: flex;
@@ -139,8 +139,7 @@ header {
     background: black;
     color: white;
     margin: 10%  6% 10% 2%;
-    padding-right: 10%;
-    padding-bottom: 1%;
+    padding: 1% 10% 1% 1%;
     padding-left: 2%;
     width: 26%;
 }
@@ -170,7 +169,7 @@ header {
 }
 nav {
     border: 1px solid rgb(236, 247, 249);
-    background-color: rgb(236, 247, 249);
+    background: rgb(197, 232, 236);
     width: 50%;
     text-align: center;
     margin: 2% 20% 3% 25%;
@@ -179,13 +178,14 @@ nav {
 /*:::::::::::::::::::::: end header::::::::::::::::;*/
 /*::::::::::::::::::::::start main:::::::::::::::::*/
 main {
-
+    background: rgb(236, 247, 249);
 }
 .tous {
     border: 1px solid black;
     width: 25%;
     margin-left: 3%;
     padding-left: 1%;
+    text-align: center;
 }
 .nvPr {
     border: 1px solid black;
@@ -193,15 +193,54 @@ main {
     margin-left: 35%;
     margin-right: 3%;
     padding-left: 1%;
+    text-align: center;
 
 }
 .hautMain {
     display: flex;
     margin-top: 4%;
 }
+.modiSupp {
+    
+    display: flex;
+    width: 18%;
+    float: right;
+    margin-top: 4%;
+    margin-right: 1%;
+    justify-content: flex-end;
+}
+.modif {
+    border: 1px solid black;
+    padding: 1% 1% 1% 1%;
 
+}
 
-
+.pro {
+    border: 1px solid rgb(230, 230, 230);
+    width: 50%;
+}
+.vert {
+    
+    background-color: rgb(140, 217, 140);
+}
+.verte {
+    text-decoration: line-through;
+}
+.bloc1 {
+    display: column;
+}
+.projet1 {
+    border: 1px solid black;
+    width: 70%;
+    margin: 3% 3% 3% 3%;
+    border-bottom-right-radius: 10%;
+    background: ;
+    padding: 1% 1% 1% 1%;
+    
+}
+.pfini {
+    background: rgb(255, 214, 204);
+}
 
 
 
