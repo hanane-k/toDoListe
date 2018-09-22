@@ -253,9 +253,7 @@ main {
 .verte {
     text-decoration: line-through;
 }
-.bloc1 {
-    display: column;
-}
+
 .projet1 {
     border: 1px solid black;
     width: 70%;
